@@ -1,4 +1,5 @@
 # Unsafe FFI bindings for MusicBrainz libdiscid
+[![Build Status](https://travis-ci.org/phw/rust-discid-sys.svg?branch=master)](https://travis-ci.org/phw/rust-discid-sys)
 
 ## About
 discid-sys provides automatically generated, unsafe Rust bindings for
