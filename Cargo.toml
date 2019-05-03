@@ -1,0 +1,16 @@
+[package]
+name = "discid-sys"
+version = "0.1.0"
+authors = ["Philipp Wolfer <phil@parolu.io>"]
+edition = "2018"
+description = "Unsafe FFI bindings for MusicBrainz libdiscid"
+repository = "https://github.com/phw/rust-discid-sys"
+readme = "README.md"
+keywords = ["musicbrainz", "discid", "audio", "bindings", "ffi"]
+categories = ["external-ffi-bindings"]
+license = "LGPL-3.0-or-later"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.49.0"
