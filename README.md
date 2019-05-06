@@ -8,7 +8,7 @@ discid-sys provides automatically generated, unsafe Rust bindings for
 MusicBrainz [libdiscid](http://musicbrainz.org/doc/libdiscid).
 
 You usually don't want to use these bindings directly but instead use the
-safe [discid](https://github.com/phw/rust-discid) wrapper library.
+safe [discid](https://crates.io/crates/discid) wrapper library.
 
 ## Requirements
 * libdiscid >= 0.6.0
