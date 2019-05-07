@@ -17,6 +17,7 @@ fn main() {
         .header("discid.h")
         // Extra configuration for libdiscid
         .bitfield_enum("discid_feature")
+        .blacklist_item("DISCID_FEATURE_LENGTH")
         // Finish the builder and generate the bindings.
         .generate()
         // Unwrap the Result and panic on failure.
