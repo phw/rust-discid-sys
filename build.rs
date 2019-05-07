@@ -15,6 +15,8 @@ fn main() {
         // The input header we would like to generate
         // bindings for.
         .header("discid.h")
+        // Extra configuration for libdiscid
+        .bitfield_enum("discid_feature")
         // Finish the builder and generate the bindings.
         .generate()
         // Unwrap the Result and panic on failure.

@@ -27,9 +27,15 @@ mod tests {
     }
 
     #[test]
+    fn test_discid_feature() {
+        let features = discid_feature::DISCID_FEATURE_READ | discid_feature::DISCID_FEATURE_ISRC;
+        assert_eq!(5, features.0);
+    }
+
+    #[test]
     fn test_has_feature() {
         unsafe {
-            assert_eq!(1, discid_has_feature(discid_feature_DISCID_FEATURE_READ));
+            assert_eq!(1, discid_has_feature(discid_feature::DISCID_FEATURE_READ));
         }
     }
 
