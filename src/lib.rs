@@ -26,6 +26,13 @@ mod tests {
         }
     }
 
+    #[test]
+    fn test_has_feature() {
+        unsafe {
+            assert_eq!(1, discid_has_feature(discid_feature_DISCID_FEATURE_READ));
+        }
+    }
+
     fn from_str_ptr(str_ptr: *mut c_char) -> &'static str {
         let c_str: &CStr = unsafe { CStr::from_ptr(str_ptr) };
         c_str.to_str().unwrap()
