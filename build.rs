@@ -17,6 +17,10 @@ fn main() {
         .header("discid.h")
         // Extra configuration for libdiscid
         .constified_enum_module("discid_feature")
+        .blacklist_item("DISCID_VERSION_MAJOR")
+        .blacklist_item("DISCID_VERSION_MINOR")
+        .blacklist_item("DISCID_VERSION_PATCH")
+        .blacklist_item("DISCID_VERSION_NUM")
         // Finish the builder and generate the bindings.
         .generate()
         // Unwrap the Result and panic on failure.
