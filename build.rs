@@ -8,7 +8,7 @@ fn main() {
 
     let bindings = bindgen::Builder::default()
         .header("discid.h")
-        .constified_enum_module("discid_feature")
+        .bitfield_enum("discid_feature")
         .blacklist_item("DISCID_VERSION_MAJOR")
         .blacklist_item("DISCID_VERSION_MINOR")
         .blacklist_item("DISCID_VERSION_PATCH")

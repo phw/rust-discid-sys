@@ -30,7 +30,7 @@ mod tests {
     #[test]
     fn test_discid_feature() {
         let features = discid_feature::DISCID_FEATURE_READ | discid_feature::DISCID_FEATURE_ISRC;
-        assert_eq!(5, features);
+        assert_eq!(5, features.0);
     }
 
     #[test]
