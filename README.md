@@ -22,7 +22,7 @@ Please report any issues on the
 [issue tracker](https://github.com/phw/rust-discid-sys/issues).
 
 ## License
-discid-sys Copyright (c) 2019 by Philipp Wolfer <ph.wolfer@gmail.com>
+discid-sys Copyright (c) 2019-2021 by Philipp Wolfer <ph.wolfer@gmail.com>
 
 discid-sys is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by

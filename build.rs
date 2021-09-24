@@ -9,10 +9,10 @@ fn main() {
     let bindings = bindgen::Builder::default()
         .header("discid.h")
         .bitfield_enum("discid_feature")
-        .blacklist_item("DISCID_VERSION_MAJOR")
-        .blacklist_item("DISCID_VERSION_MINOR")
-        .blacklist_item("DISCID_VERSION_PATCH")
-        .blacklist_item("DISCID_VERSION_NUM")
+        .blocklist_item("DISCID_VERSION_MAJOR")
+        .blocklist_item("DISCID_VERSION_MINOR")
+        .blocklist_item("DISCID_VERSION_PATCH")
+        .blocklist_item("DISCID_VERSION_NUM")
         .generate()
         .expect("Unable to generate bindings");
 
