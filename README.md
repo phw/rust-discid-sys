@@ -1,5 +1,4 @@
 # Unsafe FFI bindings for MusicBrainz libdiscid
-[![Build Status](https://travis-ci.org/phw/rust-discid-sys.svg?branch=master)](https://travis-ci.org/phw/rust-discid-sys)
 [![crates.io](https://img.shields.io/crates/v/discid-sys.svg)](https://crates.io/crates/discid-sys)
 [![Documentation](https://docs.rs/discid-sys/badge.svg)](https://docs.rs/discid-sys)
 [![License](https://img.shields.io/crates/l/discid-sys.svg)](https://crates.io/crates/discid-sys)
