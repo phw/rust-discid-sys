@@ -3,6 +3,8 @@
 [![Documentation](https://docs.rs/discid-sys/badge.svg)](https://docs.rs/discid-sys)
 [![License](https://img.shields.io/crates/l/discid-sys.svg)](https://crates.io/crates/discid-sys)
 
+**This project has been moved to https://git.sr.ht/~phw/rust-discid-sys**
+
 ## About
 discid-sys provides automatically generated, unsafe Rust bindings for
 MusicBrainz [libdiscid](http://musicbrainz.org/doc/libdiscid).
